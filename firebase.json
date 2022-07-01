@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "tabresca-20ca8",
     "public": "public",
     "ignore": [
       "firebase.json",
