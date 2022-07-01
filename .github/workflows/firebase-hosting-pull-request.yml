@@ -12,5 +12,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_TABRES_D72A8 }}'
-          projectId: tabres-d72a8
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_TABRES_A050C }}'
+          projectId: tabres-a050c
