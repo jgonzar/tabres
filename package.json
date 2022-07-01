@@ -1,0 +1,24 @@
+{
+  "name": "tabres",
+  "version": "1.0.0",
+  "description": "This is a landing page I am currently building with basic html and css.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgonzar/tabres.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgonzar/tabres/issues"
+  },
+  "homepage": "https://github.com/jgonzar/tabres#readme",
+  "dependencies": {
+    "firebase": "^9.8.4",
+    "firebase-tools": "^1.2.0"
+  }
+}
