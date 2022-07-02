@@ -247,12 +247,15 @@ footer p{
   margin-top:20px;
   color:var(--white);
 }
-@media (min-width:768px){
+/* @media (min-width:40em){
   main{
     margin:0 auto;
   }
-}
-@media(min-width:63em){
+} */
+@media(min-width:41em){
+  body{
+    width:100%
+  }
   main{
     margin: 0 auto;
   }
