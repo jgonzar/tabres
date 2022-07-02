@@ -262,6 +262,19 @@ footer p{
   main{
     margin: 0 auto;
   }
+ 
+  ::-webkit-scrollbar {
+    width: 5px;
+    transition:0.2s;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--white);
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius:0;
+    background-color:var(--red);
+    transition:0.5s;
+  }
   #navbarNav{
     justify-content: flex-end;
   }
@@ -305,10 +318,16 @@ footer p{
   }
   footer a{
     font-size:1.4rem;
+    color:#FFF;
+    opacity:0.8;
+  }
+  footer a:hover{
+    color: #FFF;
+    opacity:1;
   }
   footer img{
     height:60px;
-    width:120px;
+    width:20%;
   }
   footer p{
     font-size:1.2rem;
