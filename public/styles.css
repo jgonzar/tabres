@@ -30,6 +30,9 @@ h2{
 main{
   max-width: 1200px;
 }
+section {
+  width:100%;
+}
 /* header */
 header{
   align-items:center;
@@ -247,12 +250,15 @@ footer p{
   margin-top:20px;
   color:var(--white);
 }
-@media (min-width:768px){
+/* @media (min-width:40em){
   main{
     margin:0 auto;
   }
-}
-@media(min-width:63em){
+} */
+@media(min-width:41em){
+  body{
+    width:100%
+  }
   main{
     margin: 0 auto;
   }
@@ -267,8 +273,6 @@ footer p{
   }
   .hero-container{
     height:400px;
-    width:1200px;
-    max-width: 1200px;
   }
   .card1, .card2{
     height:300px;
